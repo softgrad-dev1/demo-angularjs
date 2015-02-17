@@ -1,0 +1,13 @@
+<div class="marketing">
+  <div ng-hide="isLoading">Loading...</div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4" ng-repeat='store in stores'>
+      <h4>{{store.name}}</h4>
+      <p>
+        {{store.data}}
+      </p>
+    </div>
+  </div>
+</div>
+
